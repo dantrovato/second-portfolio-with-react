@@ -1,6 +1,6 @@
 import React from "react";
 
-function Projects() {
+function ProjectGallery() {
   const styles = {
     width: {
       width: "18rem",
@@ -13,7 +13,7 @@ function Projects() {
   };
 
   return (
-    <div className="px-4 py-5 my-5 text-center text-white">
+    <div className="px-4 py-5 my-5 text-center">
       <h1 className="display-5 fw-bold text-white">Projects</h1>
       <section id="projects" className="container" style={styles.display}>
         <div>
@@ -26,7 +26,8 @@ function Projects() {
             <div clasName="card-body">
               <p clasName="card-text">
                 A simple search engine that connects to a bunch of APIs to
-                display 3 articles, 3 books and 3 videos about a related topic
+                display 3 articles, 3 books and 3 videos about a related topic.
+                Repo at{" "}
                 <a href="https://github.com/dantrovato/dan-will-daniel-project-1">
                   github
                 </a>
@@ -48,7 +49,7 @@ function Projects() {
             <div clasName="card-body">
               <p className="card-text">
                 A wheather application to see the weather for current day and
-                the next five anywhere in the world. Repo at
+                the next five anywhere in the world. Repo at{" "}
                 <a href="https://github.com/dantrovato/weather-dashboard">
                   github
                 </a>
@@ -70,7 +71,7 @@ function Projects() {
             <div className="card-body">
               <p className="card-text">
                 A One day schedule organiser that persist data between
-                refreshes. Repo at
+                refreshes. Repo at{" "}
                 <a href="https://github.com/dantrovato/work-day-scheduler">
                   github
                 </a>
@@ -92,7 +93,7 @@ function Projects() {
             <div className="card-body">
               <p className="card-text">
                 A React App to help flatmates decide who should pay what. Repo
-                at
+                at{" "}
                 <a href="https://github.com/dantrovato/fair-share-react">
                   github
                 </a>
@@ -111,4 +112,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectGallery;

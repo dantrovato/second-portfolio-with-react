@@ -1,9 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import Projects from "./components/pages/Projects";
+import ProjectGallery from "./components/pages/ProjectGallery";
 import Contact from "./components/pages/Contact";
 import Header from "./components/Header";
 
@@ -30,8 +29,8 @@ function App() {
               element={<About />}
             />
             <Route
-              path="second-portfolio-with-react/projects"
-              element={<Projects />}
+              path="second-portfolio-with-react/projectsgallery"
+              element={<ProjectGallery />}
             />
             {/* Define a route that will have descendant routes */}
             <Route

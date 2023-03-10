@@ -15,10 +15,7 @@ function Contact(props) {
         <h6 className="card-subtitle mb-2 text-muted">
           Email dantrovato@gmail.com
         </h6>
-        {/* <p className="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p> */}
+
         <a
           href="https://www.linkedin.com/in/daniele-trovato-6a130718a/"
           className="card-link"
