@@ -46,7 +46,7 @@ function NavTabs() {
           Contact
         </NavLink>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <NavLink
           to="second-portfolio-with-react/contact/learn"
           className={({ isActive }) =>
@@ -55,7 +55,7 @@ function NavTabs() {
         >
           Learn
         </NavLink>
-      </li>
+      </li> */}
     </ul>
   );
 }

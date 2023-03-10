@@ -1,16 +1,25 @@
 import React from "react";
 
 function About() {
+  const styles = {
+    pic: { height: "10rem" },
+  };
+
   return (
     <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <div className="px-4 py-5 my-3 text-center text-white">
+        <h1 className="display-5 fw-bold">About Daniele</h1>
+        <div className="col-lg-6 mx-auto">
+          <p className="lead mb-4">
+            Front-end web developer leveraging a background in the fashion
+            industry to bring in good communication and people skills.
+            Self-taught for the most part and currently completing Trilogy
+            Coding Bootcamp. Creative thinker with a passion for web
+            applications. Strengths in consistency and self-motivation
+          </p>
+        </div>
+        <img src="images/dan.JPG" style={styles.pic} className=""></img>
+      </div>
     </div>
   );
 }

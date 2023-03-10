@@ -11,9 +11,10 @@ function Projects() {
       backgroundColor: "grey",
     },
   };
+
   return (
-    <div>
-      <h1>Projects</h1>
+    <div className="px-4 py-5 my-5 text-center text-white">
+      <h1 className="display-5 fw-bold text-white">Projects</h1>
       <section id="projects" className="container" style={styles.display}>
         <div>
           <div className="card m-4 p-4" style={styles.width}>
