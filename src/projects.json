@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Pierian",
+    "name": "The Pierian Files",
     "src": "images/pierian.png",
     "description": "A simple search engine that connects to a bunch of APIs to display 3 articles, 3 books and 3 videos about a related topic.Repo at",
     "github": "https://github.com/dantrovato/dan-will-daniel-project-1",
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Weather Dashboard",
     "src": "images/weather.png",
-    "description": "A simple search engine that connects to a bunch of APIs to display 3 articles, 3 books and 3 videos about a related topic.Repo at",
+    "description": "A wheather application to see the weather for current day and the next five anywhere in the world. Repo at",
     "github": "https://github.com/dantrovato/weather-dashboard",
     "deployed": "https://dantrovato.github.io/weather-dashboard/"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Workday Scheduler",
     "src": "images/workday_scheduler.png",
-    "description": "A simple search engine that connects to a bunch of APIs to display 3 articles, 3 books and 3 videos about a related topic.Repo at",
+    "description": "A One day schedule organiser that persist data between refreshes. Repo at",
     "github": "https://github.com/dantrovato/work-day-scheduler",
     "deployed": "https://dantrovato.github.io/work-day-scheduler/"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Fairshare",
     "src": "images/fairshare.png",
-    "description": "A simple search engine that connects to a bunch of APIs to display 3 articles, 3 books and 3 videos about a related topic.Repo at",
+    "description": "A React App to help flatmates decide who should pay what. Repo at",
     "github": "https://github.com/dantrovato/fair-share-react",
     "deployed": "https://cheerful-rolypoly-45ef0c.netlify.app/"
   }
