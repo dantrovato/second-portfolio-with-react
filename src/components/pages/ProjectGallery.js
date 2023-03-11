@@ -22,6 +22,8 @@ function ProjectGallery() {
         <Project {...projectJson[1]} />
         <Project {...projectJson[2]} />
         <Project {...projectJson[3]} />
+        <Project {...projectJson[4]} />
+        <Project {...projectJson[5]} />
       </section>
     </div>
   );

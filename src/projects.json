@@ -30,5 +30,21 @@
     "description": "A React App to help flatmates decide who should pay what. Repo at",
     "github": "https://github.com/dantrovato/fair-share-react",
     "deployed": "https://cheerful-rolypoly-45ef0c.netlify.app/"
+  },
+  {
+    "id": 5,
+    "name": "Quiz",
+    "src": "images/quiz.png",
+    "description": "A multiple choice quiz with a timer and a scoreboard. Repo at",
+    "github": "https://github.com/dantrovato/code-quiz",
+    "deployed": "https://dantrovato.github.io/code-quiz/"
+  },
+  {
+    "id": 5,
+    "name": "Portfolio",
+    "src": "images/portfolio.png",
+    "description": "A React single page application portfolio. Repo at",
+    "github": "https://github.com/dantrovato/second-portfolio-with-react",
+    "deployed": "https://dantrovato.github.io/second-portfolio-with-react/"
   }
 ]
