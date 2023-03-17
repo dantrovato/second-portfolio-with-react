@@ -20,7 +20,7 @@ export default function Project({
   return (
     <div style={styles.background}>
       <div className="card m-4 p-4" style={styles.width}>
-        <img className="card-img-top" src={src} alt="Card image cap" />
+        <img className="card-img-top" src={src} alt="" />
         <div clasName="card-body">
           <p clasName="card-text">
             {description}

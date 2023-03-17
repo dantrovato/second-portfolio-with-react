@@ -18,7 +18,7 @@ function About() {
             applications. Strengths in consistency and self-motivation
           </p>
         </div>
-        <img src="images/dan.JPG" style={styles.pic} className=""></img>
+        <img src="images/dan.JPG" alt="" style={styles.pic}></img>
       </div>
     </div>
   );
