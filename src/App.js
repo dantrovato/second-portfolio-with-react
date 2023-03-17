@@ -19,6 +19,7 @@ function App() {
       <Router>
         <div style={backgroundStyle}>
           <Header />
+
           {/* Wrap Route elements in a Routes component */}
           <Routes basename="second-portfolio-with-react">
             {/* Define routes using the Route component to render different page components at different paths */}
